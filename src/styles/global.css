@@ -1,5 +1,6 @@
 html {
     background-color: #fff;
+    font-family: 'Open Sans' !important;
 }
 
 body {
@@ -37,3 +38,23 @@ body {
 .ant-layout-footer {
     background: #fff !important;
 }
+
+.page-header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-wrapper {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.ant-card-body {
+    display: flex;
+}
+
+
+/* .teammate-description {
+    width: ;
+} */

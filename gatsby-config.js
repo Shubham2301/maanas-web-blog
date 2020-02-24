@@ -86,5 +86,21 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Open Sans",
+              variants: ["400", "600", "700"],
+              strategy: 'cdn'
+            },
+          ],
+        },
+        usePreload: true,
+        //usePreconnect: false,
+      },
+    },
   ],
 }
