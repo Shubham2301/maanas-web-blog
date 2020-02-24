@@ -15,10 +15,22 @@ body {
 }
 
 .banner {
-    background-image: url('http://via.placeholder.com/1400x360');
+    /* background-image: url('http://via.placeholder.com/1400x360'); */
+    background-image: url('../../static/images/indexBanner.jpg');
+    background-size: cover;
     height: 400px;
     padding-bottom: 60px;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    filter: grayscale(0.5);
+}
+
+.banner h1,
+.banner h2 {
+    color: #fff;
 }
 
 .content-wrapper {

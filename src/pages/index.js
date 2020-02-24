@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 // import Button from "../components/button"
 import CustomLayout from '../components/layout';
+// import Banner from '../../static/images/indexBanner.jpg'
 
 function IndexPage(props) {
   // const siteTitle = "Gatsby Starter Personal Website"
