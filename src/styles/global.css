@@ -2,10 +2,38 @@ html {
     background-color: #fff;
 }
 
+body {
+    font-size: 16px !important;
+}
+
 #components-layout-demo-top .logo {
     width: 120px;
     height: 31px;
-    background: rgba(255, 255, 255, 0.2);
     margin: 16px 24px 16px 0;
     float: left;
+}
+
+.banner {
+    background-image: url('http://via.placeholder.com/1400x360');
+    height: 400px;
+    padding-bottom: 60px;
+    margin-top: 40px;
+}
+
+.content-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title {
+    text-align: center;
+}
+
+.ant-layout-header {
+    background: #fff !important;
+}
+
+.ant-layout-content,
+.ant-layout-footer {
+    background: #fff !important;
 }

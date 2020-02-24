@@ -12,10 +12,9 @@ function CustomLayout({children}) {
       <Header>
         <div className="logo" />
         <Menu
-          theme="dark"
+          theme="light"
           mode="horizontal"
-          defaultSelectedKeys={['2']}
-          style={{ lineHeight: '64px' }}
+          // style={{ lineHeight: '64px' }}
         >
           {routes.map((v, i) => {
             return (
