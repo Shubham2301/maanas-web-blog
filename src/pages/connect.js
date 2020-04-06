@@ -4,7 +4,6 @@ import { Form, Input, Button, Checkbox } from 'antd';
 
 function Connect() {
 
-
   return (
     <div className="connect-page">
       <div className="connect-pg-content">
@@ -43,3 +42,5 @@ function Connect() {
     </div>
   )
 }
+
+export default Connect;
