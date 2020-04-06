@@ -66,6 +66,44 @@ body {
     display: flex;
 }
 
+.u-img {
+    width: 160px;
+    height: 160px;
+    background: #b3c7d8;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.abt-tabs-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.abt-illustrations {
+    width: 100%;
+    height: 160px;
+    background: #b3c7d8;
+    margin: auto;
+}
+
+.abt-content-section {
+    margin-top: 40px;
+}
+
+.abt-section-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.abt-section-block .section-heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-footer {
+    height: 100px;
+}
+
 
 /* .teammate-description {
     width: ;

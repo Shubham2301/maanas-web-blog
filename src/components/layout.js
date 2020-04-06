@@ -32,7 +32,9 @@ function CustomLayout({children}) {
       <Content style={{ padding: '0 50px' }}>
         {children}
       </Content>
-      <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
+      <Footer className='main-footer' style={{ textAlign: 'center' }}>
+        <p>Ant Design ©2018 Created by Ant UED</p>
+      </Footer>
     </Layout>
   )
 }

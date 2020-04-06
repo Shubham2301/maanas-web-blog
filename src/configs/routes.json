@@ -7,11 +7,15 @@
         "path": "/team"
     },
     {
-        "name": "About Us",
+        "name": "About",
         "path": "/about"
     },
     {
         "name": "Blogs",
         "path": "/blogs"
+    },
+    {
+        "name": "Connect",
+        "path": "/connect"
     }
 ]
